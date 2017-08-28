@@ -45,3 +45,7 @@ canvas {
 .active {
     background-color: #34A65F !important;
 }
+
+.initiallyHidden {
+  display: none;
+}
