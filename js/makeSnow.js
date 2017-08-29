@@ -1,7 +1,7 @@
 // Snow from https://codepen.io/radum/pen/xICAB
 
 (function () {
-  var COUNT = 0; //no snow by default
+  var COUNT = 10; //no snow by default
 
   //determine if the date is in december.  it is let it snow!!
   getSnow();
@@ -112,7 +112,7 @@
       COUNT = 200;
       return;
     }
-    
+
     if (month === 1 ) { //only a little snow in February
       COUNT = 50;
       return;
