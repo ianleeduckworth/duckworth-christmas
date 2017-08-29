@@ -3,7 +3,7 @@
 (function () {
   var COUNT = 0; //no snow by default
 
-  //determine if the date is in december.  it is let it snow!!
+  //determine how much (if any) snow should be present in the header
   getSnow();
 
   var masthead = document.querySelector('.sky');
