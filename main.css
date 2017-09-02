@@ -49,3 +49,8 @@ canvas {
 .initiallyHidden {
   display: none;
 }
+
+.main {
+  margin-right: 17%;
+  margin-left: 17%;
+}
