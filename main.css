@@ -1,7 +1,12 @@
+/*Global font.  This will change the entire page*/
+h1, p, h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
+  padding-top: 4%;
   color: black;
   text-align: center;
-  font-family: veranda;
 }
 
 a {
@@ -48,6 +53,10 @@ canvas {
 
 .initiallyHidden {
   display: none;
+}
+
+.verticalCenter {
+  text-align: center;
 }
 
 .main {
