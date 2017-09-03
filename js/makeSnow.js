@@ -1,6 +1,6 @@
 // Snow from https://codepen.io/radum/pen/xICAB
 
-(function () {
+$(document).ready(function(){
   var COUNT = 0; //no snow by default
 
   //determine how much (if any) snow should be present in the header
@@ -136,4 +136,4 @@
       COUNT = 200; //so much snow!!
     }
   }
-})();
+});
