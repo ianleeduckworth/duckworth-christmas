@@ -62,3 +62,11 @@ canvas {
   margin-right: 17%;
   margin-left: 17%;
 }
+
+.padBottomFivePct {
+  padding-bottom: 5%;
+}
+
+.padTopFivePct {
+  padding-top: 5%;
+}
