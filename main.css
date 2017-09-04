@@ -1,11 +1,11 @@
 /*Global font.  This will change the entire page*/
 h1, p, h2, h3, h4, a {
+  color: #333333;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
   padding-top: 4%;
-  color: black;
   text-align: center;
 }
 
@@ -77,7 +77,7 @@ canvas {
   padding-top: 5%;
 }
 
-.iconImage {
+img.iconImage {
   vertical-align: middle;
   width: 35px;
   height: 35px;
@@ -85,7 +85,10 @@ canvas {
   padding-top: 5px; /* TODO probably a better way to do this... */
 }
 
-.lastChild
-{
+li.lastChild {
     float:right;
+}
+
+p.lastParagraph {
+  padding-bottom: 25px;
 }
