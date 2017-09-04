@@ -9,43 +9,42 @@ h1 {
   text-align: center;
 }
 
-
-
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #2b4958;
+  border-radius: 7px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2b4958;
 }
 
 li {
-    float: left;
+  float: left;
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: #CC231E;
+  background-color: #CC231E;
 }
 
 canvas {
-   pointer-events: none;
+  pointer-events: none;
 }
 
 .sky {
-    color: #FFF;
-    display: block;
+  color: #FFF;
+  display: block;
 }
 
 .active {
-    background-color: #34A65F !important;
+  background-color: #34A65F !important;
 }
 
 .initiallyHidden {
