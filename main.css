@@ -67,3 +67,16 @@ canvas {
 .padTopFivePct {
   padding-top: 5%;
 }
+
+.iconImage {
+  vertical-align: middle;
+  width: 35px;
+  height: 35px;
+  padding-right: 10px;
+  padding-top: 5px; /* TODO probably a better way to do this... */
+}
+
+.lastChild
+{
+    float:right;
+}
