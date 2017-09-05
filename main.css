@@ -4,6 +4,10 @@ h1, p, h2, h3, h4, a {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+  color: #3e5170;
+}
+
 h1 {
   padding-top: 4%;
   text-align: center;
@@ -91,4 +95,8 @@ li.lastChild {
 
 p.lastParagraph {
   padding-bottom: 25px;
+}
+
+p.smallText {
+  font-size: small;
 }
