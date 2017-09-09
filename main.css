@@ -1,7 +1,8 @@
 /*Global font.  This will change the entire page*/
 h1, p, h2, h3, h4, a {
   color: #333333;
-  font-family: Arial, Helvetica, sans-serif;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  font-family: 'Raleway', Arial, sans-serif;
 }
 
 a {
@@ -35,7 +36,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #CC231E;
+  background-color: #6a767c;
 }
 
 canvas {
@@ -48,7 +49,7 @@ canvas {
 }
 
 .active {
-  background-color: #34A65F !important;
+  background-color: #20a32f !important;
 }
 
 .initiallyHidden {
@@ -66,6 +67,7 @@ canvas {
   margin-left: 14%;
   z-index: 999;
   background-color: #F2F2F2;
+  opacity: 0.85;
 }
 
 .mainText {
