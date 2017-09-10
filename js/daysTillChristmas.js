@@ -4,7 +4,7 @@ $(document).ready(function(){
   var today = new Date();
   var christmas = new Date(today.getFullYear(), 11, 25);
 
-  var days = parseInt((christmas - today) / (24 * 3600 * 1000));
+  var days = parseInt((christmas - today) / (24 * 3600 * 1000)); //number of days till Christmas
 
   var message = '';
   if (days >= 100) {

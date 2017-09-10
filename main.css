@@ -49,7 +49,7 @@ canvas {
 }
 
 .active {
-  background-color: #20a32f !important;
+  background-color: #20a32f;
 }
 
 .initiallyHidden {
@@ -60,7 +60,7 @@ canvas {
   text-align: center;
 }
 
-.main {
+div.main {
   border: 0px solid black;
   border-radius: 15px;
   margin-right: 14%;
@@ -70,7 +70,7 @@ canvas {
   opacity: 0.85;
 }
 
-.mainText {
+div.mainText {
   margin-right: 3%;
   margin-left: 3%;
 }
@@ -92,7 +92,7 @@ img.iconImage {
 }
 
 li.lastChild {
-    float:right;
+    float: right;
 }
 
 p.lastParagraph {
@@ -101,4 +101,10 @@ p.lastParagraph {
 
 p.smallText {
   font-size: small;
+}
+
+p.copyright {
+  font-size: small;
+  float: right;
+  overflow: auto;
 }

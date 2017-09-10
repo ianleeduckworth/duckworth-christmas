@@ -6,6 +6,9 @@ $(document).ready(function(){
   //determine how much (if any) snow should be present in the header
   getSnow();
 
+  //show or hide the credits based on whether or not it's snowing
+  showHideCredits();
+
   var masthead = document.querySelector('.sky');
   var canvas = document.createElement('canvas');
   var ctx = canvas.getContext('2d');
@@ -102,7 +105,7 @@ $(document).ready(function(){
   masthead.appendChild(canvas);
 
   /**
-    Make the banner snow if it is January or February.  Will cause it to start snowling lightly in Dec and progressively harder until Christmas
+  Make the banner snow if it is January or February.  Will cause it to start snowing lightly in Dec and progressively harder until Christmas
   **/
   function getSnow() {
     var today = new Date();
@@ -134,6 +137,20 @@ $(document).ready(function(){
       COUNT = 150; //very snowy
     } else if (day >= 24) {
       COUNT = 200; //so much snow!!
+    }
+  }
+
+  /**
+  Show or hide the credits based on whether or not it is snowing.  No sense in
+  **/
+  function showHideCredits() {
+    var credits = $('#credits');
+    if (!credits) return;
+
+    if (COUNT === 0) {
+      credits.hide();
+    } else {
+      credits.show();
     }
   }
 });
