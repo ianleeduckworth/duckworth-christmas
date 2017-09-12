@@ -48,8 +48,12 @@ canvas {
   display: block;
 }
 
-.active {
+.activeGreen {
   background-color: #20a32f;
+}
+
+.activeRed {
+  background-color: #CC231E;
 }
 
 .initiallyHidden {
