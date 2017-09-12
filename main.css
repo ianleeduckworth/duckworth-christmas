@@ -77,6 +77,7 @@ div.main {
 div.mainText {
   margin-right: 3%;
   margin-left: 3%;
+  padding-bottom: 25px;
 }
 
 .padBottomFivePct {
@@ -98,16 +99,13 @@ img.iconImage {
 li.lastChild {
     float: right;
 }
-
-p.lastParagraph {
-  padding-bottom: 25px;
-}
-
 p.smallText {
+  padding-top: 3%;
   font-size: small;
 }
 
 p.copyright {
+  padding-top: 1%;
   font-size: small;
   float: right;
   overflow: auto;
