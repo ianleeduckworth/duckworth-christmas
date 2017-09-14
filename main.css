@@ -110,3 +110,27 @@ p.copyright {
   float: right;
   overflow: auto;
 }
+
+img.small {
+  display: block;
+  max-width: 250px;
+  max-height: 250px;
+  width: auto;
+  height: auto;
+}
+
+img.medium {
+  display: block;
+  max-width: 300px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+}
+
+img.large {
+  display: block;
+  max-width: 500px;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+}
